@@ -1,0 +1,16 @@
+{
+  "name": "esbuild-wasm-previewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "esbuild-wasm": "^0.14.38",
+    "path-browserify": "^1.0.1"
+  },
+  "scripts": {
+    "serve": "npx serve -p 4001"
+  }
+}
